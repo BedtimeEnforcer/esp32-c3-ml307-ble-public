@@ -123,7 +123,9 @@ void commandResult(const std::string& id,const std::string& state,const std::str
 struct SleepRecord {uint32_t magic;uint64_t elapsedUs;double used;uint32_t crc;};
 RTC_DATA_ATTR SleepRecord slept{};
 constexpr uint32_t MaintenanceBootMagic=0x4D41494E;
-RTC_DATA_ATTR uint32_t nextBootMaintenance=0;
+// .rtc.data is reloaded by the bootloader on a software reset. Only the
+// no-init section preserves this one-shot intent across ESP.restart().
+RTC_NOINIT_ATTR uint32_t nextBootMaintenance;
 uint64_t epochNow() {
 #ifdef BT_RUNTIME_TEST
   return clockValid?fakeEpoch:0;
@@ -276,7 +278,7 @@ void usbRequest(const std::string& text,JsonDocument& reply) {
   }
   denied=0;
   if(request["op"]=="diagnostic") {
-    reply["ok"]=true;reply["revision"]=cfg.revision;reply["firmwareVersion"]="0.3.7-dev";reply["usbProtocol"]=2;
+    reply["ok"]=true;reply["revision"]=cfg.revision;reply["firmwareVersion"]="0.3.7-dev+r1";reply["usbProtocol"]=2;
     reply["configRecovery"]=configRecovery;reply["configStatus"]=configStatus;
     reply["storageBackend"]=store.backend();reply["storageError"]=store.lastError();reply["storageMigrated"]=store.migrated();
     reply["screenDetected"]=screenOk;reply["cellular"]=IsMaster && modem.registered;
@@ -528,7 +530,7 @@ void slaveTick() {
 }
 #ifndef BT_RUNTIME_TEST
 void statusJson(JsonDocument& d) {
-  d["firmwareVersion"]="0.3.7-dev";d["configRevision"]=cfg.revision;d["powerSaving"]=IsMaster && cfg.sleep;d["remoteConnected"]=remoteOnline;
+  d["firmwareVersion"]="0.3.7-dev+r1";d["configRevision"]=cfg.revision;d["powerSaving"]=IsMaster && cfg.sleep;d["remoteConnected"]=remoteOnline;
   d["maintenanceWindowActive"]=maintenanceActive();d["maintenanceWindowSeconds"]=maintenanceActive()?maintenanceWindow.remaining(millis()):0;
   d["configRecovery"]=configRecovery;d["configStatus"]=configStatus;d["simStatus"]=modem.simStatus;
   d["storageBackend"]=store.backend();d["storageError"]=store.lastError();d["storageMigrated"]=store.migrated();

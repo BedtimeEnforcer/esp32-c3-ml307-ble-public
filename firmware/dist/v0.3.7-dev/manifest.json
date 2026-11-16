@@ -1,5 +1,6 @@
 {
   "version": "0.3.7-dev",
+  "release_revision": "r1",
   "hardware_accepted": false,
   "new_cloud_permissions_verified": false,
   "cloud_verification_scope": "not performed for this release; software and build checks only",
@@ -29,12 +30,12 @@
     "src/ble_scanner.cpp": "be6f423224ca5cb576b0c7c89d32300272fe2dbe9ced0373703acf763e98df25",
     "src/ble_support.cpp": "af1d43628cd5386b9ac92a7b7a5d5b84ffb634576bd9251ba735c405516220fb",
     "src/core.cpp": "64c113521830c735810980c0ae41d8f852daf6c94985e89740bf6f1124b8cb99",
-    "src/main.cpp": "b0795171f048aafbc8338c69f438c1c6d34620dd57fadac139a8a5981d3edd55",
+    "src/main.cpp": "cb270d3334aee5c881c9dfebe11ca3da006522a304dafc260457675da4153aa6",
     "src/modem.cpp": "e9ae0d1c6d08125399b5959c053c233dc72b7484c85be3b2abb33e591e581db7",
     "src/persistence.cpp": "3d711d22da40902871b5a863e0573a11958b624ed47a9d15e6dc506d06ffb4ae",
     "src/protocol.cpp": "4b068986c746d5e1fbf758da4d35371db0327c2dfc2d422c9512add85c9de2cc",
     "src/remote.cpp": "8949ca16008d09d11d9b783853b0163c3dd828a5a612c4647e8ea09a5165d44a",
-    "src/remote_runtime.inc": "6be5f3a67cd5a97ddbd38a461551fb7769f414c255a3e75e1675d004ec033367",
+    "src/remote_runtime.inc": "0af3fc0b488d3f6cb1296f4ed54bffeb5b2177ba7d9f3c326d551e1da12cc9ac",
     "src/screen_ui.cpp": "9cacc07d4b99d54e2448af32ef4086366298d3a288776ea98236fd350e4d2f3a",
     "src/subscriber.cpp": "779b9c73f484a93c38b8a689c26707ccd58637536538c1103023e5d96a095288",
     "web/index.html": "17f89bb03d16c925ea62be9bc1be3cd430ffe0948d37ea148cbc8e091df1b399",
@@ -43,7 +44,7 @@
   },
   "monitor_hashes": {
     ".nojekyll": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-    "index.html": "a7b104223b4c7a3997a733f8a499f5e841e4550a443bb1b550c2179e0e6d424a",
+    "index.html": "861e8f2166cda3466297357ff50bcf3d33ce1534d7e2e33e9b18007786778d33",
     "styles.css": "d7dc9e40007ded20ac65097d990de1f36aa2c9923f06de8dff54f52020aae3db",
     "core.js": "9ee287a38d26cd740f36184126f3ddd9fcd407656d2692083e65f0e5a30117d9",
     "app.js": "eba07878b2364247c7cc25204dee38d2f40fc53fa48befa34bf662ee679c1cd6",
@@ -54,20 +55,20 @@
   },
   "artifacts": {
     "master-ML307-v0.3.7-dev-app.bin": {
-      "bytes": 1577184,
-      "sha256": "283913b78431f2e4c1f45eb9bf3f4c9513758d96c4b53f4aa3ab7c9521d91e76"
+      "bytes": 1577200,
+      "sha256": "19fb6546f2827c893880533cd506f6756b1514419b71af6c8dad70eddd423044"
     },
     "master-ML307-v0.3.7-dev-flash0.bin": {
-      "bytes": 1642720,
-      "sha256": "6dc7e09a11d3c39e5e54ebdf262faddeb31f33d4c177024df64131a90b1ca8c0"
+      "bytes": 1642736,
+      "sha256": "882bf84bcbe3108160f7ab8d2627d75bcbd7c9a73d442b7b41f4f8ae9718b70e"
     },
     "slave-C3-v0.3.7-dev-app.bin": {
       "bytes": 1664320,
-      "sha256": "db9f19697d822bc0be0fe8de349c8a0ac8da6d91c97dcf2748d522c3c84bb076"
+      "sha256": "54912545d873c92672da47127a5a01b1c061923c125c7d5dd157ef9a26fba616"
     },
     "slave-C3-v0.3.7-dev-flash0.bin": {
       "bytes": 1729856,
-      "sha256": "dc3ce5a4d192455b3c3d3f0f770c983f63e737429a3704b65c7d8bc0fee6d0d7"
+      "sha256": "106b08906523ffd93ed7911dc7e41b57584fe16247c1192d106a1ac20b2e2810"
     }
   }
 }

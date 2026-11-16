@@ -1,0 +1,18 @@
+{
+  "kind": "compiled_elf_storage_check",
+  "softwareRestartIntentRetained": true,
+  "roles": [
+    {
+      "role": "master_ml307",
+      "symbolSection": ".rtc_noinit",
+      "loadedFromImage": false
+    },
+    {
+      "role": "slave_c3",
+      "symbolSection": ".rtc_noinit",
+      "loadedFromImage": false
+    }
+  ],
+  "hardwareAccepted": false,
+  "scope": "ELF placement and source classification only; no physical reset tested"
+}

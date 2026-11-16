@@ -65,7 +65,7 @@ cloud_file=OUT/'evidence/remote-permissions.json'
 cloud=json.loads(cloud_file.read_text(encoding='utf-8')) if cloud_file.exists() else {}
 grants=cloud.get('subacks',{})
 cloud_verified=bool(cloud.get('authenticated') and grants.get('raw')==1 and grants.get('master/device')==1 and grants.get('slave/device')==1 and grants.get('outsideBinding',0)>=128)
-manifest = {'version': args.version, 'hardware_accepted': False,'new_cloud_permissions_verified':cloud_verified,
+manifest = {'version': args.version, 'release_revision': 'r1', 'hardware_accepted': False,'new_cloud_permissions_verified':cloud_verified,
             'cloud_verification_scope':('current web account: grouped subscriptions allowed and outside binding rejected' if cloud_verified else 'not performed for this release; software and build checks only'),
             'embedded_web_sha256':hashlib.sha256(canonical_page).hexdigest(),'embedded_web_bytes':len(canonical_page),
             'oled_pin_initialization_fix_included':True,'build_platform':sys.platform,

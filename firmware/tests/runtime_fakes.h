@@ -51,3 +51,4 @@ inline void esp_sleep_enable_timer_wakeup(uint64_t us){fakeSleepUs=us;}
 inline void esp_deep_sleep_start(){fakeSleeping=true;}
 inline uint32_t esp_random(){return 12345;}
 #define RTC_DATA_ATTR
+#define RTC_NOINIT_ATTR

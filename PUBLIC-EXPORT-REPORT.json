@@ -142,11 +142,12 @@
   "schematicImages": 8,
   "genericFirmwareHashesVerified": true,
   "hardwareAccepted": false,
-  "files": 579,
+  "files": 581,
+  "releaseRevision": "r1",
   "localDomChecks": 111,
   "remoteDomChecks": 64,
-  "privateHistoryParents": 0,
   "finalKnownPrivateValueScanPassed": true,
   "githubTokenPatternsAbsent": true,
-  "originalGenericFirmwareBytesUnchanged": true
+  "originalGenericFirmwareBytesUnchanged": true,
+  "compiledRtcNoInitChecked": true
 }

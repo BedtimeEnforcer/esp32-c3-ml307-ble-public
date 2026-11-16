@@ -50,7 +50,7 @@ void queueRemote(bool plannedSleep,bool full) {
   if(!remote.history.empty()) {auto& h=remote.history.back();d["result_at"]=h.at;d["result_ok"]=h.success;d["result_reason"]=h.reason;}
   queuePacket(bt::deviceTopic(cfg,"state"),jsonString(d));
   if(!full)return;
-  d.clear();d["v"]=1;d["device_id"]=cfg.deviceId;d["reported_at"]=epochNow();d["firmware"]="0.3.7-dev";
+  d.clear();d["v"]=1;d["device_id"]=cfg.deviceId;d["reported_at"]=epochNow();d["firmware"]="0.3.7-dev+r1";
   d["storage_ok"]=storageOk;d["config_recovery"]=configRecovery;d["config_status"]=configStatus;
   if(IsMaster) {d["sim"]=modem.simStatus;d["modem_status"]=bt::shortText(modem.status);d["step"]=modem.failureStep;d["error"]=modem.errorCode;}
   queuePacket(bt::deviceTopic(cfg,"diagnostics"),jsonString(d));
