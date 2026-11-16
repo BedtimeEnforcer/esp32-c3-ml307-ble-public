@@ -1,0 +1,10 @@
+.venv/
+.pio/
+**/.pio/
+**/private/
+私有维护资料/
+*.local.json
+.dev-evidence/
+node_modules/
+__pycache__/
+.env*

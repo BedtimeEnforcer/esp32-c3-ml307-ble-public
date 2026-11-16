@@ -1,0 +1,18 @@
+{
+  "broker": "mqtt.example.com",
+  "wssPort": 8084,
+  "prefix": "pair-example",
+  "masterId": "master-01",
+  "devices": [
+    {
+      "id": "master-example",
+      "role": "master",
+      "label": "主端"
+    },
+    {
+      "id": "slave-example",
+      "role": "slave",
+      "label": "从端"
+    }
+  ]
+}

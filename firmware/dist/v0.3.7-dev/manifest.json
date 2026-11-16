@@ -1,0 +1,73 @@
+{
+  "version": "0.3.7-dev",
+  "hardware_accepted": false,
+  "new_cloud_permissions_verified": false,
+  "cloud_verification_scope": "not performed for this release; software and build checks only",
+  "embedded_web_sha256": "3c8d4dee611a536954b8b057eafc848e22b9499342f0fe82ff98c40188039d10",
+  "embedded_web_bytes": 60876,
+  "oled_pin_initialization_fix_included": true,
+  "build_platform": "win32",
+  "master_factory_app0_limit_bytes": 1703936,
+  "master_com8_upgrade": "APP only at 0x10000; preserve the measured factory OTA partition table and NVS; do not use flash0 on this board",
+  "flash_assumption": "4MB, DIO 40MHz, verify actual flash before flashing",
+  "source_hashes": {
+    "include/ble_advertiser.h": "b1ac26ba90471bdd745f75b5c871315453a515d6fe48c07bcb87751ad6043284",
+    "include/ble_scanner.h": "5b96bf2dde0b6329b91210fda316a6bd0dbc9aa5ef6cc4d95d3402499dec95a1",
+    "include/config.h": "0e905333bd4fbbec3982d10bde870340aef9806c4fbdf2de1c2914deb7770e0f",
+    "include/core.h": "a0f531102859c5fc0a1783f66525d54994459daee0c0814d3a42bfcc60b0bedb",
+    "include/modem.h": "c9329d773298a4268b2fdb63cef212cc40529c08ef01b698bbf7123622ac0c95",
+    "include/persistence.h": "31106a5eb72305c3c59ecd6893fda77ff00ca5e9ba8148868aac8e86f895e864",
+    "include/policy.h": "44963f570e6d775d0f7de2804aa4b338c29c9ff8fe9d43e70e1f8dd8b6480079",
+    "include/protocol.h": "d0fcd2e9fc39d7b068e7ddee9eeafb2b0bd1b8475cbff6772e322ab71cf7db46",
+    "include/remote.h": "a91d01e5c3689d85117c09d8cc8e96040ce9edcc33c03ce1d843a706688728ec",
+    "include/screen_ui.h": "a7f9a53a8737dd30008b4c86340f0d20cce3e031ae70161e8987d57430c0a5d8",
+    "include/storage.h": "0871c0e85518d765be2391b52df05a25cbfcda22ee147ff641cce4ebdae203b1",
+    "include/subscriber.h": "982039b4d2d0bcf0d225096195d3abcaa8f78c6b9bcf9f89f126f1dbfed7a0a4",
+    "include/web_page.h": "fc296496b9ce5e8404b255f8301f34f1bd9162aaf2f217ca9b3b191dd87ce361",
+    "include/web_stream.h": "c710fd422dcbf3f747d71b2bc299304524595aab7e215d2c9cc605894eb2ab6b",
+    "src/ble_advertiser.cpp": "e96d4d16fc2efc8d6fee90511f46b33851d2de40896542b15bd74301f97d8b5d",
+    "src/ble_scanner.cpp": "be6f423224ca5cb576b0c7c89d32300272fe2dbe9ced0373703acf763e98df25",
+    "src/ble_support.cpp": "af1d43628cd5386b9ac92a7b7a5d5b84ffb634576bd9251ba735c405516220fb",
+    "src/core.cpp": "64c113521830c735810980c0ae41d8f852daf6c94985e89740bf6f1124b8cb99",
+    "src/main.cpp": "b0795171f048aafbc8338c69f438c1c6d34620dd57fadac139a8a5981d3edd55",
+    "src/modem.cpp": "e9ae0d1c6d08125399b5959c053c233dc72b7484c85be3b2abb33e591e581db7",
+    "src/persistence.cpp": "3d711d22da40902871b5a863e0573a11958b624ed47a9d15e6dc506d06ffb4ae",
+    "src/protocol.cpp": "4b068986c746d5e1fbf758da4d35371db0327c2dfc2d422c9512add85c9de2cc",
+    "src/remote.cpp": "8949ca16008d09d11d9b783853b0163c3dd828a5a612c4647e8ea09a5165d44a",
+    "src/remote_runtime.inc": "6be5f3a67cd5a97ddbd38a461551fb7769f414c255a3e75e1675d004ec033367",
+    "src/screen_ui.cpp": "9cacc07d4b99d54e2448af32ef4086366298d3a288776ea98236fd350e4d2f3a",
+    "src/subscriber.cpp": "779b9c73f484a93c38b8a689c26707ccd58637536538c1103023e5d96a095288",
+    "web/index.html": "17f89bb03d16c925ea62be9bc1be3cd430ffe0948d37ea148cbc8e091df1b399",
+    "platformio.ini": "ea2d20629e41bf3523f3927a29aba7851a65f64979bfa75a4556af29f709829f",
+    "tools/build_paths.py": "24a4012ae9ed1eb7f809468cc5c848f597c1cbf2eeb7d82045862364e50dbe75"
+  },
+  "monitor_hashes": {
+    ".nojekyll": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "index.html": "32fea857b11ffd49c3bc6125aa2673932e2e30c3887d973e03f3a92a0d842fba",
+    "styles.css": "d7dc9e40007ded20ac65097d990de1f36aa2c9923f06de8dff54f52020aae3db",
+    "core.js": "9ee287a38d26cd740f36184126f3ddd9fcd407656d2692083e65f0e5a30117d9",
+    "app.js": "eba07878b2364247c7cc25204dee38d2f40fc53fa48befa34bf662ee679c1cd6",
+    "README.md": "91e239b947cc1fb1ebbba334dcd72259d72a87ad89f500ba6a142489ebc40cd2",
+    "vendor/mqtt.min.js": "0d5d035815d2a462e6edf0f86ab91f7a5d563a36b40e9760e4ee452618f7c45e",
+    "vendor/MQTT.js-LICENSE.md": "81b51ef8ac2a8ac8f111ed34ab1a32d63e7f4f7de586bd65f5510fb1ba3a89eb",
+    "vendor/source.json": "f2c2f00103a13901167b5fefc03a79668fba28887760a8c590b38038f7758f3d"
+  },
+  "artifacts": {
+    "master-ML307-v0.3.7-dev-app.bin": {
+      "bytes": 1577184,
+      "sha256": "283913b78431f2e4c1f45eb9bf3f4c9513758d96c4b53f4aa3ab7c9521d91e76"
+    },
+    "master-ML307-v0.3.7-dev-flash0.bin": {
+      "bytes": 1642720,
+      "sha256": "6dc7e09a11d3c39e5e54ebdf262faddeb31f33d4c177024df64131a90b1ca8c0"
+    },
+    "slave-C3-v0.3.7-dev-app.bin": {
+      "bytes": 1664320,
+      "sha256": "db9f19697d822bc0be0fe8de349c8a0ac8da6d91c97dcf2748d522c3c84bb076"
+    },
+    "slave-C3-v0.3.7-dev-flash0.bin": {
+      "bytes": 1729856,
+      "sha256": "dc3ce5a4d192455b3c3d3f0f770c983f63e737429a3704b65c7d8bc0fee6d0d7"
+    }
+  }
+}

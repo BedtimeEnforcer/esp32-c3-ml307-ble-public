@@ -1,0 +1,7 @@
+{
+  "package": "mqtt",
+  "version": "5.10.4",
+  "source": "https://github.com/mqttjs/MQTT.js",
+  "npm_integrity": "sha512-wN+SuhT2/ZaG6NPxca0N6YtRivnMxk6VflxQUEeqDH4erKdj+wPAGhHmcTLzvqfE4sJRxrEJ+XJxUc0No0E7eQ==",
+  "bundle_sha256": "0d5d035815d2a462e6edf0f86ab91f7a5d563a36b40e9760e4ee452618f7c45e"
+}

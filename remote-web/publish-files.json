@@ -1,0 +1,3 @@
+{
+  "files": [".nojekyll", "index.html", "styles.css", "core.js", "app.js", "README.md", "vendor/mqtt.min.js", "vendor/MQTT.js-LICENSE.md", "vendor/source.json"]
+}

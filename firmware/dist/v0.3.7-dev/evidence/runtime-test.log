@@ -1,0 +1,2 @@
+PASS 163 actual main/scheduler/remote-owner integration checks (hardware/network/time mocked)
+PASS 79 actual slave owner/follow/fixed/control/lock checks (hardware/network/time mocked)

@@ -1,0 +1,152 @@
+{
+  "version": "0.3.7-dev",
+  "privateGitHistoryCopied": false,
+  "knownPrivateValuesAbsent": true,
+  "hostUserNameAbsent": true,
+  "personalScreenshotsExcluded": true,
+  "factoryFlashExcluded": true,
+  "vendorPdfCopies": [
+    {
+      "path": "hardware/vendor/AT_Commands_Reference_Guide_4G_Series_V2.0.5.pdf",
+      "pages": 198,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/HTTP_HTTPS用户手册_V6.1.4.pdf",
+      "pages": 47,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/LBS用户手册_4G系列_V1.6.4.pdf",
+      "pages": 19,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/LwM2M用户手册_V5.2.2.pdf",
+      "pages": 74,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/ML307C_Android_RIL_驱动开发指导手册_V1.0.0.pdf",
+      "pages": 14,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/ML307C_固件升级用户手册_V1.0.0.pdf",
+      "pages": 23,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/ML307C_拨号上网用户手册_V1.0.0.pdf",
+      "pages": 27,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/ML307C_硬件设计手册_AT版本适用_V1.0.1.pdf",
+      "pages": 65,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/ML307C_硬件设计手册_OpenCPU版本适用_Primary+Version.pdf",
+      "pages": 71,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/ML307C_维护诊断工具用户手册_V1.0.0.pdf",
+      "pages": 21,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/ML307C_通信流程示例_V1.0.0.pdf",
+      "pages": 29,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/ML307系列_EVB用户手册_V004适用_V1.0.0.pdf",
+      "pages": 36,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/MQTT用户手册_V6.8.5.pdf",
+      "pages": 37,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/SSL用户手册_V5.4.5.pdf",
+      "pages": 42,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/TCP_IP用户手册_V5.1.5.pdf",
+      "pages": 72,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/扩展AT用户手册_4G系列_V1.7.4.pdf",
+      "pages": 67,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/文件系统用户手册_4G系列_V3.5.0.pdf",
+      "pages": 28,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/硬件兼容性手册_ML307系列适用_V3.2.0.pdf",
+      "pages": 55,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/通信模组PCB设计指导_V1.1.0.pdf",
+      "pages": 27,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/原理图-USB直连无串口芯片版本.pdf",
+      "pages": 1,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/原理图-V1.2另一版本.pdf",
+      "pages": 1,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    },
+    {
+      "path": "hardware/vendor/尺寸-V1.2.pdf",
+      "pages": 1,
+      "metadataCleared": true,
+      "technicalTextUnchanged": true
+    }
+  ],
+  "schematicImages": 8,
+  "genericFirmwareHashesVerified": true,
+  "hardwareAccepted": false,
+  "files": 579,
+  "localDomChecks": 111,
+  "remoteDomChecks": 64,
+  "privateHistoryParents": 0,
+  "finalKnownPrivateValueScanPassed": true,
+  "githubTokenPatternsAbsent": true,
+  "originalGenericFirmwareBytesUnchanged": true
+}

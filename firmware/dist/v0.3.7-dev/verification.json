@@ -1,0 +1,10 @@
+{
+  "image_hashes_verified": true,
+  "source_hashes_verified": true,
+  "private_credential_literals_absent_from_images": true,
+  "hardware_accepted": false,
+  "new_cloud_permissions_verified": false,
+  "monitor_hashes_verified": true,
+  "current_web_page_found_in_all_images": true,
+  "image_count": 4
+}

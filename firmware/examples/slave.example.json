@@ -1,0 +1,17 @@
+{
+  "deviceId": "slave-example",
+  "masterId": "master-01",
+  "prefix": "pair-example",
+  "targetMac": "C0:11:22:33:44:55",
+  "generation": 1,
+  "broker": "mqtt.example.com",
+  "port": 8883,
+  "tls": true,
+  "caPem": "",
+  "mqttUser": "YOUR_SLAVE_USERNAME",
+  "mqttPass": "YOUR_SLAVE_PASSWORD",
+  "wifiSsid": "YOUR_2_4G_WIFI",
+  "wifiPass": "YOUR_WIFI_PASSWORD",
+  "fixed": false,
+  "simulate": true
+}

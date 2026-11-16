@@ -1,0 +1,18 @@
+{
+  "kind": "static_source_check",
+  "checks": {
+    "u8g2_does_not_receive_bus_pins": true,
+    "one_explicit_wire_pin_initialization": true,
+    "wire_initialized_before_display": true,
+    "wifi_bt_power_save_retained": true
+  },
+  "old_release_rejected": true,
+  "historical_baseline_available": true,
+  "roles_covered": [
+    "master_shared_source",
+    "slave_shared_source"
+  ],
+  "compiled": false,
+  "flashed": false,
+  "new_firmware_hardware_accepted": false
+}

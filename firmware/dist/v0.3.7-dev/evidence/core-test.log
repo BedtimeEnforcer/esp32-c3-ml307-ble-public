@@ -1,0 +1,4 @@
+PASS 227 protocol/config/clock/ACK/battery/recovery/unlock checks
+PASS 185 driver/power/serial-fragmentation/NVS checks (hardware mocked)
+PASS 54 actual subscriber callback/SUBACK/fragment/lifecycle checks (MQTT transport mocked)
+PASS 83 schedule/commands/dedup/history/ML307-downlink checks
